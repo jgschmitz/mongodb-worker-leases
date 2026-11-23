@@ -1,4 +1,4 @@
-MongoDB lease pattern (this is specific to customer) 
+MongoDB lease pattern
 
 Recommended reference implementation for coordinating scheduled AKS workers.
 One persistent document per task; one unique owner token per acquisition; all
